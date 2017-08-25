@@ -5,16 +5,14 @@
 	 font-family: Signika !important;
   }
  
-  a {
-	  color: #434343 !important;
-  }
-  
+
+  /*
     h3, h4 {
       margin: 10px 0 30px 0;
       letter-spacing: 10px;
       font-size: 20px;
       color: #111;
-  }
+  }*/
   
   /*
     .container {
@@ -39,6 +37,17 @@
  }
 
 
+   #monMenu a {
+	  color: #434343 !important;
+  }
+  
+    #monMenu a:hover {
+      color: #ff6246 !important;
+  }
+  /*
+  .navbar-nav li a:hover {
+      color: #ff6246 !important;
+  }*/
  
    @media (max-width: 767px) {
  #monMenu {
@@ -49,7 +58,7 @@
   
   
   #navfb {
-	 max-width: 85%; /*85*/
+	 max-width: 75%; /*85*/
 	 margin: auto;
 	 padding-top: 5px;
 	 padding-right: 5px;
@@ -81,7 +90,7 @@
 
   
  .navbar{
-	 max-width: 85%; /*80*/
+	 max-width: 75%; /*80*/
 	 margin: auto;
 	 margin-bottom: 0px !important;
 	 border: 0px !important;
@@ -104,7 +113,7 @@
 
   }
   
- 
+ /*
   .modal-header, h4, .close {
       background-color: #333;
       color: #000 !important;
@@ -114,6 +123,8 @@
   .modal-header, .modal-body {
       padding: 40px 50px;
   }
+  */
+  
   .nav-tabs li a {
       color: #777;
   }
@@ -124,9 +135,6 @@
   }
   
 
-  .navbar-nav li a:hover {
-      color: #ff6246 !important;
-  }
   .navbar-nav li.active a {
       color: #ff6246 !important;
       background-color: #29292c !important;
@@ -180,7 +188,7 @@
   
   #balades {
 	  background-color: #fff;
-	  	 max-width: 85%; /*80*/
+	  	 max-width: 75%; /*80*/
 	 margin: auto;
 	 /*background-image: url("img/belcier-en-transition.jpg");*/
   }
@@ -203,12 +211,73 @@
   }
   
       #balades h3{
+		font-size: 18px !important;
+		margin-top: 0px;
+		padding-top: 5px;
+		font-weight: bold;
+  }
+  
+        #balades h3 .orange{
+		color: #ff6246;
+  }
+  
+          #balades h4{
+		font-size: 11px !important;
+		font-family: Verdana;
+		text-align: left!important;
+		padding-top: 0px;
+		padding-right: 6px;
+		padding-left: 10px;
+		padding-bottom: 10px;
+		margin-top: 0px!important;
+		margin-bottom: 0px!important;
+
+  }
+  
+            #balades h5{
+		font-size: 10px !important;
+		font-family: Verdana;
+		font-style: italic;
+		text-align: left!important;
+		padding-top: 0px;
+		padding-right: 0px;
+		padding-left: 10px;
+		padding-bottom: 5px;
+		margin-top: 0px!important;
+		 /* padding: 3px 3px 3px 3px;*/
+
+  }
+  
+      #balades h5 a{
+		color: #ff6246;
 
   }
   
     #balades p{
 		margin:0px;
 	}
+	
+      #balades	.btnreserver {
+  font-family: Signika!important;
+  color: #ffffff;
+  font-size: 12px;
+  		font-style: normal;
+  background: #414141;
+  		/*padding-top: 5px;
+		padding-right: 6px;
+		padding-left: 10px;
+		padding-bottom: 5px;*/
+  padding: 8px 16px 8px 16px;
+  margin-top: 10px;
+  text-decoration: none;
+  
+}
+
+      #balades .btnreserver:hover {
+  background: #ff6246;
+  text-decoration: none;
+}
+
 
   .carte{
 	  background-color: #f1f1f1;
@@ -230,7 +299,7 @@
 }
   
   
-  
+  /*
   .bg-1 {
       background: #2d2d30;
       color: #bdbdbd;
@@ -298,6 +367,6 @@
 	    
   }
   
-  
+  */
   
   
