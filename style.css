@@ -190,13 +190,14 @@
 	  background-color: #fff;
 	  	 max-width: 75%; /*80*/
 	 margin: auto;
-	 margin-bottom: 30px;
+	 margin-bottom: 50px;
 	 	 margin-top: 20px;
 	 /*background-image: url("img/belcier-en-transition.jpg");*/
   }
   
     #balades .titre{
 margin-bottom: 20px;
+max-width: 100%;
 }
   
     #balades h1{
@@ -366,18 +367,42 @@ margin-bottom: 20px;
 
 	 min-height: 200px;
 	 	 /*background-image: url("img/belcier-en-transition.jpg");*/
+		 background-image: url('img/trame.png');
   }
   
   #offreentreprises .contenu{
 
 	 max-width: 75%; /*80*/
 	 margin: auto;
-	 background-color: #ee2246;	
+	 /*background-color: #ee2246;	*/
 	 min-height: 200px;	 
-	 margin-bottom: 20px;
+		margin-bottom: 70px!important;
 	 margin-top: 20px;
 
   }
+  
+#offreentreprises h4{
+		font-size: 11px !important;
+		font-family: Verdana;
+		text-align: center!important;
+		padding-top: 0px;
+		padding-right: 6px;
+		padding-left: 10px;
+		padding-bottom: 10px;
+		margin-top: 20px!important;
+
+		max-width: 50%;
+		margin: auto;
+		color: #fff;
+
+  }
+  
+      #offreentreprises .titre{
+margin-bottom: 10px;
+max-width: 100%;
+}
+  
+ 
   
   /*
   .arrow-upright {
