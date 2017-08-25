@@ -159,7 +159,7 @@
 
   
     .carousel-inner  {
-  	  max-height: 500px !important;
+  	  max-height: 400px !important;
 	}
   .carousel-inner img {
       width: 100%;  
@@ -190,8 +190,14 @@
 	  background-color: #fff;
 	  	 max-width: 75%; /*80*/
 	 margin: auto;
+	 margin-bottom: 30px;
+	 	 margin-top: 20px;
 	 /*background-image: url("img/belcier-en-transition.jpg");*/
   }
+  
+    #balades .titre{
+margin-bottom: 20px;
+}
   
     #balades h1{
 		color: #434343 !important;
@@ -225,6 +231,8 @@
 	font-weight: normal;
 	padding-bottom: 5px;
 }
+
+
   
         #balades h3 .orange{
 		color: #ff6246;
@@ -355,6 +363,7 @@
 	 background-color: #ff6246;
 	 max-width: 100%; /*80*/
 	 margin: auto; 
+
 	 min-height: 200px;
 	 	 /*background-image: url("img/belcier-en-transition.jpg");*/
   }
@@ -363,8 +372,10 @@
 
 	 max-width: 75%; /*80*/
 	 margin: auto;
-	 background-color: #fff;	
+	 background-color: #ee2246;	
 	 min-height: 200px;	 
+	 margin-bottom: 20px;
+	 margin-top: 20px;
 
   }
   
