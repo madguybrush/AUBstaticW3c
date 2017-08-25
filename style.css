@@ -217,6 +217,15 @@
 		font-weight: bold;
   }
   
+  #balades .avenir{
+	background-color: #414141!important;
+	color: #fff!important;
+	width: 100%;
+  	font-size: 15px !important;
+	font-weight: normal;
+	padding-bottom: 5px;
+}
+  
         #balades h3 .orange{
 		color: #ff6246;
   }
@@ -262,7 +271,7 @@
   color: #ffffff;
   font-size: 12px;
   		font-style: normal;
-  background: #414141;
+  background-color: #414141;
   		/*padding-top: 5px;
 		padding-right: 6px;
 		padding-left: 10px;
@@ -272,15 +281,59 @@
   text-decoration: none;
   
 }
-
-      #balades .btnreserver:hover {
-  background: #ff6246;
+#balades .btnreserver:hover {
+  background-color: #ff6246;
   text-decoration: none;
 }
 
+#balades .inactif{
+  background-color: #cacaca;
+}
+
+#balades .inactif:hover{
+  background-color: #bababa;
+}
+
+.imagenb{
+	    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+    -ms-filter: grayscale(100%);
+    -o-filter: grayscale(100%);
+}
+
+
+
+#balades .btnplus {
+  /*font-family: Signika!important;*/
+  color: #ff6246;
+  font-size: 9px;
+  font-weight: normal;
+
+  /*padding: 16px 16px 16px 16px;*/
+  margin-top: 10px;
+  text-decoration: none;
+  /*padding-bottom: -10px;*/
+  
+}
+
+#balades .btnplus:hover {
+  color: #414141;
+  text-decoration: none;
+}
+
+#balades .boutonplus{
+		  line-height: 50px!important;
+	  }
+	  
+#balades .bgblanc{
+  background-color: #fff;
+	  }
+	  
+
 
   .carte{
-	  background-color: #f1f1f1;
+	  background-color: #fff;
 	  /*margin: 10px;*/
 	  		padding: 0px;
 	  /*padding: 0 8px;*/
@@ -289,6 +342,33 @@
 	  box-shadow: 0 4px 10px 0 rgba(0,0,0,0.2), 0 4px 20px 0 rgba(0,0,0,0.19)
   }
   
+  
+        #balades .icone{
+		margin-top: 15px;
+
+  }
+  
+  
+  /***************OFFRE ENTREPRISES**********/
+  
+  #offreentreprises{
+	 background-color: #ff6246;
+	 max-width: 100%; /*80*/
+	 margin: auto; 
+	 min-height: 200px;
+	 	 /*background-image: url("img/belcier-en-transition.jpg");*/
+  }
+  
+  #offreentreprises .contenu{
+
+	 max-width: 75%; /*80*/
+	 margin: auto;
+	 background-color: #fff;	
+	 min-height: 200px;	 
+
+  }
+  
+  /*
   .arrow-upright {
   width: 0; 
   height: 0; 
@@ -297,6 +377,8 @@
   border-bottom: 20px solid transparent;
   /*display: inline-block;*/
 }
+
+*/
   
   
   /*
