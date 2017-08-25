@@ -46,13 +46,6 @@
 	/*float: left;*/
  }
   }
-  
-  
-  #navfb {
-	 max-width: 85%; /*80*/
-	 margin: 10px;
-	 float: right;
- }
  
  #navfb li{
 		 font-family: Verdana;
@@ -67,14 +60,6 @@
 	 	flex: 1;
 		text-align: right;
  }
- 
-  #myNavbar navbar-nav{
-
-  /*flex-direction: row!important;
-  margin-right: auto!important;*/
- }
-  
-
   
  .navbar{
 	 max-width: 85%; /*80*/
