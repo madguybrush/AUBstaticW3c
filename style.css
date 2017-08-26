@@ -530,6 +530,51 @@ max-width: 100%;
     margin-top: 10px;
 }
 
+ /**************FOOTER******************/
+ 
+ footer {
+	 background-color: #434343;
+	 max-width: 100%; /*80*/
+	 margin: auto; 
+	 min-height: 200px;
+	 		 background-image: url('img/tramefooter.png');
+		 background-repeat: repeat-x;
+  }
+  
+  footer .contenu{
+
+	 max-width: 75%; /*80*/
+	 margin: auto;
+	 /*background-color: #ee2246;	*/
+	 min-height: 200px;	 
+		/*margin-bottom: 70px!important;
+	 margin-top: 20px;*/
+
+  }
+ 
+ 
+ 
+ 
+   /******************SOUTIEN***********/
+  
+   
+  #soutien{
+	 background-color: #fff;
+	 max-width: 100%; /*80*/
+	 margin: auto; 
+	 min-height: 200px;
+  }
+  
+  #soutien .contenu{
+
+	 max-width: 75%; /*80*/
+	 margin: auto;
+	 /*background-color: #ee2246;	*/
+	 min-height: 200px;	 
+		/*margin-bottom: 70px!important;
+	 margin-top: 20px;*/
+
+  }
  
  
  
