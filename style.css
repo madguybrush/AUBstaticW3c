@@ -339,9 +339,18 @@ max-width: 100%;
   background-color: #fff;
 	  }
 	  
+	  
+	  .separationcol12mob{
+		  display: none;
+	  }
 
+@media (max-width: 767px) {
+	  .separationcol12mob{
+		  display: block ;
+	  }
+  }
 
-  .carte{
+ #balades .carte{
 	  background-color: #fff;
 	  /*margin: 10px;*/
 	  		padding: 0px;
@@ -368,6 +377,7 @@ max-width: 100%;
 	 min-height: 200px;
 	 	 /*background-image: url("img/belcier-en-transition.jpg");*/
 		 background-image: url('img/trame.png');
+		 background-repeat: repeat-x;
   }
   
   #offreentreprises .contenu{
@@ -376,7 +386,7 @@ max-width: 100%;
 	 margin: auto;
 	 /*background-color: #ee2246;	*/
 	 min-height: 200px;	 
-		margin-bottom: 70px!important;
+		margin-bottom: 50px!important;
 	 margin-top: 20px;
 
   }
@@ -390,7 +400,7 @@ max-width: 100%;
 		padding-left: 10px;
 		padding-bottom: 10px;
 		margin-top: 20px!important;
-
+		margin-bottom: 20px!important;
 		max-width: 50%;
 		margin: auto;
 		color: #fff;
@@ -402,7 +412,147 @@ margin-bottom: 10px;
 max-width: 100%;
 }
   
+ #offreentreprises .btnnouscontacter{
+	   font-family: Signika!important; 
+	   font-size: 17px;
+	     color: rgb(255, 98, 70);
+		font-weight: bold;
+		text-transform: uppercase;
+		  padding: 8px 16px 8px 16px;
+		  text-align: center;
+		  background-color: #fff;
+		  /*box-shadow: 0 4px 10px 0 rgba(225, 68, 41,0.2), 0 4px 20px 0 rgba(225, 68, 41,0.19);*/
+  margin-top: 10px!important;
+-webkit-box-shadow: 4px 6px 0px 0px rgba(225,68,41,1);
+-moz-box-shadow: 4px 6px 0px 0px rgba(225,68,41,1);
+box-shadow: 4px 6px 0px 0px rgba(225,68,41,1);
+
+ }
+
+  
+
+ #offreentreprises .btnnouscontacter:hover{
+
+	     color: #414141 ;
+		 /* background-color: #ff6246;*/
+text-decoration: none;
+-webkit-box-shadow: 2px 4px 0px 0px rgba(0,0,0,1);
+-moz-box-shadow: 2px 4px 0px 0px rgba(0,0,0,1);
+box-shadow: 2px 4px 0px 0px rgba(0,0,0,1);
+
+ }
+
+  
+
+  
+  /******************NOS ECLAIREURS***********/
+  
+   
+  #noseclaireurs{
+	 background-color: #fff;
+	 max-width: 100%; /*80*/
+	 margin: auto; 
+	 min-height: 200px;
+  }
+  
+  #noseclaireurs .contenu{
+
+	 max-width: 75%; /*80*/
+	 margin: auto;
+	 /*background-color: #ee2246;	*/
+	 min-height: 200px;	 
+		margin-bottom: 70px!important;
+	 margin-top: 20px;
+
+  }
+  
+        #noseclaireurs .titre{
+margin-bottom: 10px;
+max-width: 100%;
+}
+
+  
+
+  
+    #noseclaireurs h3{
+		font-family: Signika;
+		color: #ff6246;
+		font-size: 15px !important;
+		margin-top: 0px;
+		padding-top: 5px;
+		padding-bottom: 0px;
+		font-weight: bold;
+		text-align: left!important;
+				margin-bottom: 0px!important;
+  }
+  
+          #noseclaireurs h4{
+		font-size: 11px !important;
+		font-family: Verdana;
+		text-align: left!important;
+		color: #000;
+		padding-top: 5px;
+		margin-top: 0px!important;
+		margin-bottom: 0px!important;
+
+  }
+
+      #noseclaireurs h2{
+		font-family: Signika;
+		color: #fff;
+		font-size: 15px !important;
+		/*padding-top: 40%;
+		padding-bottom: 40%;*/
+		margin:0px!important;
+		font-weight: bold;
+		text-align: center!important;
+				margin-bottom: 0px!important;
+  }
+
+
+#noseclaireurs .btnplus {
+  color: #ff6246;
+  font-size: 15px;
+  font-weight: normal;
+  margin-top: 10px;
+  text-decoration: none;
+  text-align: left!important;
+  
+}
+
+#noseclaireurs .btnplus:hover {
+  color: #414141;
+}
+
+#noseclaireurs .floatleft {
+  /*width: 100%;*/
+  float: left;
+    margin-top: 10px;
+}
+
  
+ 
+ 
+   /* #noseclaireurs .carteeclaireur{ */
+	  /* background-color: #fff; */
+	  /* padding: 0px; */
+		/* min-height: 80%; */
+
+	  /* box-shadow: 0 4px 10px 0 rgba(0,0,0,0.2), 0 4px 20px 0 rgba(0,0,0,0.19) */
+  /* } */
+
+ 
+  /* #noseclaireurs .carterejoigneznous{ */
+	  /* background-color: #ff6246; */
+	  /* padding: 0px; */
+
+	/* background-image: url('img/tramerejoigneznous.png'); */
+	  /* box-shadow: 0 4px 10px 0 rgba(0,0,0,0.2), 0 4px 20px 0 rgba(0,0,0,0.19) */
+  /* } */
+  
+  /* .height100{ */
+	  /* height:100%; */
+  /* } */
   
   /*
   .arrow-upright {
