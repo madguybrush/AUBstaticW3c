@@ -180,7 +180,53 @@
 	  width:100%;
   }  
   
+  .chevronright{
+	  position:absolute;
+	  /*top: 95%;*/
+	  bottom: -15px;
+	  width:30px;
+	  
+  }
   
+  .carousel-control.right{
+	  /*right: 15px!important;*/
+
+	  left: auto!important;
+  }
+  
+    .carousel-control.left{
+	/*  left: 15px!important;*/
+	  right: auto!important;
+  }
+  
+  
+    .chevronleft{
+	  position:absolute;
+	  /*top: 95%;*/
+	  bottom: -15px;
+	  width:30px;
+  }
+  
+  .carousel-indicators{
+	  bottom: -20px!important;
+	 /* left: 80%!important;
+	  		  width: 80%!important;*/
+  }
+  
+  .carousel-indicators li{
+	  background-color: #434343!important;
+	  border: 1px solid #434343!important;
+	  	  width: 7px!important;
+	  	  height: 7px!important;
+
+  }
+  
+     .carousel-indicators .active{
+	  background-color: #ff6246!important;
+	  border: 1px solid #ff6246!important;
+	  width: 7px!important;
+	  	  height: 7px!important;
+  }
   
   /**************** NOS BALADES **************/
   
@@ -539,21 +585,91 @@ max-width: 100%;
 	 min-height: 200px;
 	 		 background-image: url('img/tramefooter.png');
 		 background-repeat: repeat-x;
+
   }
   
   footer .contenu{
 
 	 max-width: 75%; /*80*/
 	 margin: auto;
-	 /*background-color: #ee2246;	*/
-	 min-height: 200px;	 
-		/*margin-bottom: 70px!important;
-	 margin-top: 20px;*/
+	 /*background-color: #ee2246;	
+	 min-height: 200px;	 */
+	 padding-bottom: 20px;
+
 
   }
+  
+    footer address{
+font-family: Verdana;
+font-size: 10px;
+	color: #fff;
+	padding: 5px;
+	text-align: left!important;
+  }
+  
+     @media (max-width: 991px) {
+      footer address{
+	text-align: center!important;
+  }
+  
+    footer .contactfooter{
+float: initial!important;
+ }
+  }
+
+ footer btncontact{
+	 margin-bottom: 10px;
+ }
  
+ footer .logofooter{
+	 max-width: 100%;
+ }
  
+  footer .contactfooter{
+	 max-width: 100%;
+	 /*margin: auto;*/
+float: left;
+margin-bottom: 20px;
+ }
  
+     footer h2{
+		font-family: Signika;
+		color: #ff6246;
+		font-size: 12px !important;
+		padding-top: 5px;
+		padding-bottom: 0px;
+			 margin-top: 20px;
+		font-weight: bold;
+		/*text-align: left!important;
+		margin-bottom: 0px!important;*/
+  }
+
+     footer h3{
+		font-family: Verdana;
+		color: #ff6246;
+		font-size: 13px !important;
+		padding-top: 5px;
+		padding-bottom: 0px;
+			 margin-top: 20px;
+  }
+
+       footer span{
+		font-family: Verdana;
+		color: #898989;
+		font-size: 11px;
+		padding-top: 25px;
+		padding-bottom: 20px!important;
+			 margin-top: 20px;
+			 
+
+  }
+  
+         footer .rightalign{
+
+			 text-align: right;
+
+  }
+
  
    /******************SOUTIEN***********/
   
@@ -575,7 +691,24 @@ max-width: 100%;
 	 margin-top: 20px;*/
 
   }
+  
+    #soutien h3{
+
+	color:#ff6246;
+	font-family: Signika;
+	font-size: 13px;
+	text-align: center;
+
+  }
  
+ #soutien .max100{
+	 	 max-width: 100%;
+	display: block;
+    margin: auto;
+	vertical-align: middle;
+
+	 
+ }
  
  
    /* #noseclaireurs .carteeclaireur{ */
