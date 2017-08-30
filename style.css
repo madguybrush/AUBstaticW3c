@@ -59,7 +59,7 @@
   }
   
   #navfb {
-	 max-width: 75%; /*85*/
+	 max-width: 85%; /*85*/
 	 margin: auto;
 	 padding-top: 5px;
 	 padding-right: 5px;
@@ -102,7 +102,7 @@
 
   
  .navbar{
-	 max-width: 75%; /*80*/
+	 max-width: 85%; /*80*/
 	 margin: auto;
 	 margin-bottom: 0px !important;
 	 border: 0px !important;
@@ -172,6 +172,20 @@
   
 /*************CAROUSEL****************/
 
+.btnplay{
+	color: #ff6246;
+	text-align:center;
+}
+
+
+   .controls .progress {
+      position:absolute;
+	  color: #ff6246;
+      top:0;
+      width:100%;
+      float:none;
+      margin-top:0;
+   }
 
   
     .carousel-inner  {
@@ -179,8 +193,9 @@
 	}
 	
 	    .carousel-inner .item {
-  	  max-height: 400px !important;
-	  /* min-height: 400px !important; */
+  	  /* max-height: 370px !important; */
+	  height: 370px;
+	  /* min-height: 370px !important; */
 	}
 	
   .carousel-inner img {
@@ -190,12 +205,11 @@
   }
   
 
-  
-
-    
+     
   .video-fluid{
 	  height:100%;
 	  width:100%;
+	  background-color: black;
   }  
   
 
@@ -245,7 +259,7 @@
   }
   
   .indicatorcontainer{
-	  max-width: 75%;
+	  max-width: 85%;
 	  margin: auto;
 	  text-align: right;
   }
@@ -363,10 +377,10 @@
   
   #balades {
 	  background-color: #fff;
-	  	 max-width: 75%; /*80*/
+	  	 max-width: 85%; /*80*/
 	 margin: auto;
 	 margin-bottom: 50px;
-	 	 margin-top: 20px;
+	 	 /* margin-top: 20px; */
 	 /*background-image: url("img/belcier-en-transition.jpg");*/
   }
   
@@ -554,7 +568,7 @@ max-width: 100%;
   
   #offreentreprises .contenu{
 
-	 max-width: 75%; /*80*/
+	 max-width: 85%; /*80*/
 	 margin: auto;
 	 /*background-color: #ee2246;	*/
 	 min-height: 200px;	 
@@ -629,7 +643,7 @@ box-shadow: 2px 4px 0px 0px rgba(0,0,0,1);
   
   #noseclaireurs .contenu{
 
-	 max-width: 75%; /*80*/
+	 max-width: 85%; /*80*/
 	 margin: auto;
 	 /*background-color: #ee2246;	*/
 	 min-height: 200px;	 
@@ -716,7 +730,7 @@ max-width: 100%;
   
   footer .contenu{
 
-	 max-width: 75%; /*80*/
+	 max-width: 85%; /*80*/
 	 margin: auto;
 	 /*background-color: #ee2246;	
 	 min-height: 200px;	 */
@@ -817,7 +831,7 @@ margin-bottom: 20px;
   
   #soutien .contenu{
 
-	 max-width: 75%; /*80*/
+	 max-width: 85%; /*80*/
 	 margin: auto;
 	 /*background-color: #ee2246;	*/
 	 min-height: 200px;	 
@@ -865,6 +879,20 @@ margin-bottom: 20px;
 	 margin-top:10px;
  }
  
+ 
+  /************desktop 1200************/
+ 
+ 
+     @media only screen and (max-width: 1400px) {
+ #navfb {
+max-width:95%	
+ }	
+ 
+  .navbar {
+max-width:95%	
+ }	
+ 
+	 }
   
  /************TABLETTE 1024************/
  
@@ -1022,6 +1050,7 @@ margin-bottom: 20px;
 
 	  left: auto!important;
 	  width: 15%!important;
+	  		  bottom: 50%!important;
 	  /* background-image: linear-gradient(to right, rgba(0,0,0,0.0001) 0, rgba(0,0,0,0.5) 100%)!important; */
   }
   
@@ -1029,6 +1058,7 @@ margin-bottom: 20px;
 	/*  left: 15px!important;*/
 	  right: auto!important;
 	  	  width:15%!important;
+		  bottom: 50%!important;
 		  
 	  /* background-image: linear-gradient(to right, rgba(0,0,0,0.0001) 0, rgba(0,0,0,0.5) 100%)!important; */
   }
@@ -1038,7 +1068,7 @@ margin-bottom: 20px;
     .chevronright{
 	  position:absolute;
 	  /* top: 25%; */
-	  top: calc(50% - 100px);
+	  /* top: calc(50% - 50px); */
 	  right:25%;
 	  /* bottom: -15px; */
 	  width:40px;
@@ -1047,7 +1077,7 @@ margin-bottom: 20px;
   }
     .chevronleft{
 	  position:absolute;
-	  top: calc(50% - 100px);
+	  /* top: calc(50% - 50px); */
 	  left:25%;
 	  /* bottom: -15px; */
 	  width:40px;
@@ -1076,4 +1106,28 @@ margin-bottom: 20px;
   }
 	
   }
+  
+  
+  /*************480****************/
+  
+  
+    @media only screen and (max-width: 480px) {
+      .chevronright{
+	  position:absolute;
+	  top: 25%;
+	  	  /* top: 0%;  */
+	  right:25%;
+
+
+	  
+  }
+    .chevronleft{
+	  position:absolute;
+top: 25%;
+	  left:25%;
+
+
+  }
+  
+	}
   
