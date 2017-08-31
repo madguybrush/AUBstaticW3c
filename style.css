@@ -29,31 +29,6 @@
 	color: #ff6246;
 }
 
- #monMenu {
-	display: flex;
-	 align-items: center;
-	 
-	     display: -webkit-flex; /* Safari */
-    -webkit-align-items: center; /* Safari 7.0+ */
-
-	 /*justify-content: space-between;*/
-/*flex-direction: row-reverse;*/
- }
-
-
-   #monMenu a {
-	  color: #434343 !important;
-  }
-  
-    #monMenu a:hover {
-      color: #ff6246 !important;
-  }
-  /*
-  .navbar-nav li a:hover {
-      color: #ff6246 !important;
-  }*/
- 
-
   #navfb1024{
 	  display:none;
   }
@@ -81,26 +56,41 @@
    #navfb a:hover{
 	color: #ff6246;
  }
- 
- #myNavbar{
-	 /*margin-left: auto;*/
-	 /*float: right !important;*/
-	 	  	 /*line-height: 165px;*/
-			 
-    -webkit-flex: 1; /* Safari 6.1+ */
-    -ms-flex: 1; /* IE 10 */ 
-    flex: 1;
-		text-align: right;
- }
- 
-  #myNavbar navbar-nav{
 
-  /*flex-direction: row!important;
-  margin-right: auto!important;*/
- }
-  
+ #monMenu {
+	 
+	display: flex;
+	 align-items: center;
+	 
+	     display: -webkit-flex; 
+    -webkit-align-items: center;  /* Safari 7.0+ */
 
+	 /*justify-content: space-between;*/
+/*flex-direction: row-reverse;*/
+
+   /* flex-direction: row; */ /* make main axis vertical */
+ /* center items vertically, in this case */
+
+
+ }
+
+ /* #monMenu .navcenter{ */
+	     
+ /* } */
+
+   #monMenu a {
+	  color: #434343 !important;
+  }
   
+    #monMenu a:hover {
+      color: #ff6246 !important;
+  }
+  /*
+  .navbar-nav li a:hover {
+      color: #ff6246 !important;
+  }*/
+ 
+
  .navbar{
 	 max-width: 85%; /*80*/
 	 margin: auto;
@@ -112,20 +102,51 @@
  }
  
  
+ #myNavbar {
+	 /*margin-left: auto;*/
+	 /*float: right !important;*/
+	 	  	 /*line-height: 165px;*/
+			 
+			 
+			 /******* REMETTRE POUR ALIGN RIGHT ****/
+			 
+    /* -webkit-flex: auto;  */
+	
+    /* -ms-flex: auto;  */
+	
+    /* flex: auto; */
+	
+	width:100%;
+		
+ }
+ 
+ .navbar .navbar-nav {
+  display: inline-block;
+  float: none;
+  vertical-align: top;
+}
+
+.navbar .navbar-collapse {
+  text-align: center;
+}
+ 
+
+  
+
+ 
+ 
 #myNavbar .nav>li{
 
 	  font-weight: bold;
 	  color: #434343 !important;
-	  /*position: relative;*/
+
 	 display: flex !important;
 	  align-items: center !important;
 	  
 	  display: -webkit-flex!important; /* Safari */
     -webkit-align-items: center!important; /* Safari 7.0+ */
 
-	  /*  position: relative;
-  top: 50%;
-  transform: translateY(-50%);*/
+
 
   }
   
@@ -889,8 +910,23 @@ max-width:95%
  }	
  
   .navbar {
-max-width:95%	
+max-width:95%;	
  }	
+ 
+	 }
+	 
+	      @media only screen and (min-width: 1025px) and (max-width: 1238px) {
+ .navbar li a{
+font-size: 11px;	
+max-width:100%;	
+
+ }	
+  .navbar li a{
+
+padding: 8px;
+ }	
+ 
+
  
 	 }
   
