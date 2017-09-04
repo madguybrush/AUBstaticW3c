@@ -20,7 +20,9 @@
   }*/
   
   
-
+.orange{
+		color: #ff6246;
+  }
   
  
 /*************MENU*********/ 
@@ -46,15 +48,18 @@
  #navfb li{
 		 font-family: Verdana;
 	/*font-weight: 400;*/
-	color: #434343;
+
+	color: #ff6246;
 
  }
  
   #navfb a{
-	color: #434343;
+	color: #ff6246;
  }
    #navfb a:hover{
 	color: #ff6246;
+		/* font-size: 10px; */
+	text-decoration: underline;
  }
 
  #monMenu {
@@ -431,7 +436,7 @@ max-width: 100%;
       #balades h3{
 		font-size: 18px !important;
 		margin-top: 0px;
-		padding-top: 5px;
+		padding-top: 15px;
 		font-weight: bold;
   }
   
@@ -460,6 +465,7 @@ max-width: 100%;
 		padding-bottom: 10px;
 		margin-top: 0px!important;
 		margin-bottom: 0px!important;
+		line-height: 15px;
 
   }
   
@@ -477,8 +483,9 @@ max-width: 100%;
 
   }
   
-      #balades h5 a{
+      #balades a{
 		color: #ff6246;
+		font-style: italic;
 
   }
   
@@ -552,7 +559,7 @@ max-width: 100%;
 	  
 	  
 	  .separationcol12mob{
-		  display: none;
+		  /* display: none; */
 	  }
 
 
@@ -1166,4 +1173,258 @@ top: 25%;
   }
   
 	}
+	
+	
+	/***********************page nos balades********************************/
+	
+	#headerimg img{
+		width:100%;
+	}
   
+  #bread{
+	 max-width:85%; 
+	 margin: auto;
+	 padding: 10px;
+  }
+    #bread img{
+ margin-right: 8px;
+	}
+	
+	#bread .chevron {
+		margin-right:5px;
+	}
+	
+	    #bread .texte{
+  font-size: 14px;
+  font-family: "Signika";
+  color: rgb(103, 103, 103);
+  line-height: 1.188;
+  text-align: left;
+
+
+	}
+	
+#balades	hr{
+		/* color: #b5b5b5; */
+		border-top: 1px solid #b5b5b5;
+	}
+	
+	#balades .alert{
+		text-align: left!important;
+		font-size: 12px;
+		font-weight: normal;
+		padding: 15px;
+		padding-left: 35px;
+		color: #ff6246;
+	}
+	
+		/* #balades span{ */
+/* padding-bottom:8px; */
+	/* } */
+
+		#balades .imgi{
+/* margin-bottom: -44px; */
+vertical-align: middle;
+margin-left: -22px;
+margin-top: 35px;
+float: left;
+	}
+	
+			#balades .marginbottom20{
+margin-bottom: 20px; 
+	}
+	
+	#balades .width50{
+		width:50%;
+	}
+	
+	/* .marginleft20{ */
+		/* margin-left: 20px; */
+	/* } */
+	
+	/* .margintopmoins20{ */
+		/* margin-top:-20px; */
+	/* } */
+	
+	
+	 #balades .arrow-upright {
+  width: 0%; 
+  height: 0; 
+  border-left: 0px solid transparent; 
+  border-right: 20px solid #ef5236;
+  border-bottom: 20px solid transparent;
+  display: inline-block;
+  background-color: transparent!important;
+  padding-left: 15px;
+}
+
+#balades .carte2{
+	  background-color: #fff;
+	  		padding: 0px;
+			margin-left: 20px;
+			margin-top:-25px;
+	  box-shadow: 0 4px 10px 0 rgba(0,0,0,0.2), 0 4px 20px 0 rgba(0,0,0,0.19);
+	  padding-left: 10px;
+  }
+  
+	
+	
+  /* #balades { */
+	  /* background-color: #fff; */
+	  	 /* max-width: 85%;  */
+	 /* margin: auto; */
+	 /* margin-bottom: 50px; */
+  /* } */
+  
+    /* #balades .titre{ */
+/* margin-bottom: 20px; */
+/* max-width: 100%; */
+/* } */
+  
+    /* #balades h1{ */
+		/* color: #434343 !important; */
+		/* font-size: 26px; */
+
+  /* } */
+  
+      /* #balades h2{ */
+		/* color: #fff !important; */
+		/* background-color: #ff6246; */
+		/* padding: 5px; */
+		/* font-size: 22px !important; */
+		/* line-height: 35px; */
+		/* margin: 0px !important; */
+  /* } */
+  
+      /* #balades h3{ */
+		/* font-size: 18px !important; */
+		/* margin-top: 0px; */
+		/* padding-top: 5px; */
+		/* font-weight: bold; */
+  /* } */
+  
+  /* #balades .avenir{ */
+	/* background-color: #414141!important; */
+	/* color: #fff!important; */
+	/* width: 100%; */
+  	/* font-size: 15px !important; */
+	/* font-weight: normal; */
+	/* padding-bottom: 5px; */
+/* } */
+
+
+  
+        /* #balades h3 .orange{ */
+		/* color: #ff6246; */
+  /* } */
+  
+          /* #balades h4{ */
+		/* font-size: 11px !important; */
+		/* font-family: Verdana; */
+		/* text-align: left!important; */
+		/* padding-top: 0px; */
+		/* padding-right: 6px; */
+		/* padding-left: 10px; */
+		/* padding-bottom: 10px; */
+		/* margin-top: 0px!important; */
+		/* margin-bottom: 0px!important; */
+
+  /* } */
+  
+            /* #balades h5{ */
+		/* font-size: 10px !important; */
+		/* font-family: Verdana; */
+		/* font-style: italic; */
+		/* text-align: left!important; */
+		/* padding-top: 0px; */
+		/* padding-right: 0px; */
+		/* padding-left: 10px; */
+		/* padding-bottom: 5px; */
+		/* margin-top: 0px!important; */
+
+  /* } */
+  
+      /* #balades h5 a{ */
+		/* color: #ff6246; */
+
+  /* } */
+  
+    /* #balades p{ */
+		/* margin:0px; */
+	/* } */
+	
+      /* #balades	.btnreserver { */
+  /* font-family: Signika!important; */
+  /* color: #ffffff; */
+  /* font-size: 12px; */
+  		/* font-style: normal; */
+  /* background-color: #414141; */
+  /* padding: 8px 16px 8px 16px; */
+  /* margin-top: 10px; */
+  /* text-decoration: none; */
+  
+/* } */
+/* #balades .btnreserver:hover { */
+  /* background-color: #ff6246; */
+  /* text-decoration: none; */
+/* } */
+
+/* #balades .inactif{ */
+  /* background-color: #cacaca; */
+/* } */
+
+/* #balades .inactif:hover{ */
+  /* background-color: #bababa; */
+/* } */
+
+/* .imagenb{ */
+	    /* filter: grayscale(100%); */
+    /* -webkit-filter: grayscale(100%); */
+    /* -moz-filter: grayscale(100%); */
+    /* -ms-filter: grayscale(100%); */
+    /* -o-filter: grayscale(100%); */
+/* } */
+
+
+
+/* #balades .btnplus { */
+  /* color: #ff6246; */
+  /* font-size: 9px; */
+  /* font-weight: normal; */
+  /* margin-top: 10px; */
+  /* text-decoration: none; */
+
+  
+/* } */
+
+/* #balades .btnplus:hover { */
+  /* color: #414141; */
+  /* text-decoration: none; */
+/* } */
+
+/* #balades .boutonplus{ */
+		  /* line-height: 50px!important; */
+	  /* } */
+	  
+/* #balades .bgblanc{ */
+  /* background-color: #fff; */
+	  /* } */
+	  
+	  
+	  /* .separationcol12mob{ */
+		  /* display: none; */
+	  /* } */
+
+
+
+ /* #balades .carte{ */
+	  /* background-color: #fff; */
+	  		/* padding: 0px; */
+	  /* box-shadow: 0 4px 10px 0 rgba(0,0,0,0.2), 0 4px 20px 0 rgba(0,0,0,0.19) */
+  /* } */
+  
+  
+        /* #balades .icone{ */
+		/* margin-top: 15px; */
+
+  /* } */
