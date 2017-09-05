@@ -2,7 +2,7 @@
       /*font: 400 15px/1.8 Lato, sans-serif;*/
       color: #000;
 	  background-color: #fff;
-	 font-family: Signika !important;
+	 font-family: Signika ;
   }
  
 
@@ -94,8 +94,14 @@
  /* } */
 
    #monMenu a {
-	  color: #434343 !important;
+	  color: #434343;
   }
+  
+     #monMenu a .active {
+	  color: #ff6246 !important;
+	  background-color: #fff!important;
+  }
+  
   
     #monMenu a:hover {
       color: #ff6246 !important;
@@ -189,7 +195,7 @@
 
   .navbar-nav li.active a {
       color: #ff6246 !important;
-      background-color: #29292c !important;
+      background-color: #fff !important;
   }
   .navbar-default .navbar-toggle {
       border-color: transparent;
@@ -205,6 +211,15 @@
       background-color: red !important;
   }
   
+  
+  
+/* .navbar-default .navbar-nav>.active>a{  */
+	  /* background-color:#fff!important; */
+	  /* color: #ff6246; */
+  /* }  */
+  
+  	  /* color: #ff6246 !important; */
+	  /* background-color: #fff!important; */
   
 /*************CAROUSEL****************/
 
@@ -407,6 +422,12 @@
   
   /*ol{display:inline;text-align: right;}*/
   
+  
+ .titre{
+margin-bottom: 20px;
+max-width: 100%;
+}
+  
   /**************** NOS BALADES **************/
   
   
@@ -420,10 +441,10 @@
 	 /*background-image: url("img/belcier-en-transition.jpg");*/
   }
   
-    #balades .titre{
-margin-bottom: 20px;
-max-width: 100%;
-}
+    /* #balades .titre{ */
+/* margin-bottom: 20px; */
+/* max-width: 100%; */
+/* } */
   
     #balades h1{
 		color: #434343 !important;
@@ -444,7 +465,7 @@ max-width: 100%;
   }
   
       #balades h3{
-		font-size: 18px !important;
+		font-size: 15px !important;
 		margin-top: 0px;
 		padding-top: 15px;
 		font-weight: bold;
@@ -478,6 +499,7 @@ max-width: 100%;
 		line-height: 15px;
 
   }
+  
   
             #balades h5{
 		font-size: 10px !important;
@@ -643,10 +665,10 @@ max-width: 100%;
 
   }
   
-      #offreentreprises .titre{
-margin-bottom: 10px;
-max-width: 100%;
-}
+      /* #offreentreprises .titre{ */
+/* margin-bottom: 10px; */
+/* max-width: 100%; */
+/* } */
   
  #offreentreprises .btnnouscontacter{
 	   font-family: Signika!important; 
@@ -686,14 +708,14 @@ box-shadow: 2px 4px 0px 0px rgba(0,0,0,1);
    
   #noseclaireurs{
 	 background-color: #fff;
-	 max-width: 100%; /*80*/
+	 max-width: 85%; /*80*/
 	 margin: auto; 
 	 min-height: 200px;
   }
   
   #noseclaireurs .contenu{
 
-	 max-width: 85%; /*80*/
+	 /* max-width: 85%; */
 	 margin: auto;
 	 /*background-color: #ee2246;	*/
 	 min-height: 200px;	 
@@ -702,10 +724,10 @@ box-shadow: 2px 4px 0px 0px rgba(0,0,0,1);
 
   }
   
-        #noseclaireurs .titre{
-margin-bottom: 10px;
-max-width: 100%;
-}
+        /* #noseclaireurs .titre{ */
+/* margin-bottom: 10px; */
+/* max-width: 100%; */
+/* } */
 
   
 
@@ -723,15 +745,19 @@ max-width: 100%;
   }
   
           #noseclaireurs h4{
-		font-size: 11px !important;
+		font-size: 12px !important;
 		font-family: Verdana;
 		text-align: left!important;
 		color: #000;
 		padding-top: 5px;
 		margin-top: 0px!important;
 		margin-bottom: 0px!important;
+		line-height: 1.4;
 
   }
+  
+
+
 
       #noseclaireurs h2{
 		font-family: Signika;
@@ -1197,7 +1223,7 @@ top: 25%;
 	}
 	
 	
-	/***********************page nos balades********************************/
+	/***********************pages********************************/
 	
 	#headerimg img{
 		width:100%;
@@ -1226,12 +1252,13 @@ top: 25%;
 
 	}
 	
-#balades	hr{
+hr{
 		/* color: #b5b5b5; */
 		border-top: 1px solid #b5b5b5;
+		/* margin-bottom:30px; */
 	}
 	
-	#balades .alert{
+.alert{
 		text-align: left!important;
 		font-size: 12px;
 		font-weight: normal;
@@ -1240,33 +1267,32 @@ top: 25%;
 		color: #ff6246;
 	}
 	
-		/* #balades span{ */
-/* padding-bottom:8px; */
-	/* } */
 
-		#balades .imgi{
-/* margin-bottom: -44px; */
-vertical-align: middle;
+
+ .imgi{
 margin-left: -22px;
 margin-top: 35px;
 float: left;
 	}
 	
-			#balades .marginbottom20{
-margin-bottom: 20px; 
+ .imgi2{
+margin-left: -22px;
+margin-top: 25px;
+float: left;
 	}
 	
-	#balades .width50{
+ .marginbottom20{
+margin-bottom: 20px; 
+	}
+	 .marginbottom35{
+margin-bottom: 35px; 
+	}
+	
+.width50{
 		width:50%;
 	}
 	
-	/* .marginleft20{ */
-		/* margin-left: 20px; */
-	/* } */
-	
-	/* .margintopmoins20{ */
-		/* margin-top:-20px; */
-	/* } */
+
 	
 	
 	 #balades .arrow-upright {
@@ -1311,7 +1337,11 @@ margin-bottom: 20px;
 	padding-top: 8px;
 	padding-left: 5px!important;
 }
-	
+
+.paddingtop8{
+	padding-top: 8px;
+	/* padding-left: 5px!important; */
+}	
 	
 	        #fbcta h4{
 		font-size: 13px !important;
@@ -1334,163 +1364,253 @@ margin-bottom: 20px;
 	  font-size: 17px;
 	  /* margin-top: 10px; */
   }
-	
-  /* #balades { */
-	  /* background-color: #fff; */
-	  	 /* max-width: 85%;  */
-	 /* margin: auto; */
-	 /* margin-bottom: 50px; */
-  /* } */
   
-    /* #balades .titre{ */
-/* margin-bottom: 20px; */
-/* max-width: 100%; */
-/* } */
   
-    /* #balades h1{ */
-		/* color: #434343 !important; */
-		/* font-size: 26px; */
+  
+  /***********page qui**************/
+  
+  
+  #projet{
 
-  /* } */
+	 max-width: 100%; /*80*/
+	 margin: auto; 
+	  background-color: #fff;
+	 min-height: 200px;
+	 margin-bottom: 50px;
+  }
   
-      /* #balades h2{ */
-		/* color: #fff !important; */
-		/* background-color: #ff6246; */
+  #projet .contenu{
+
+	 max-width: 85%; /*80*/
+	 margin: auto;
+	 /*background-color: #ee2246;	*/
+	 /* min-height: 200px;	  */
+	 margin-top: 20px;
+
+  }
+
+
+  
+    #projet h1{
+		color: #434343 !important;
+		font-size: 26px;
+
+  }
+  
+  
+  
+      #projet h2{
+		color: #ff6246;
 		/* padding: 5px; */
-		/* font-size: 22px !important; */
-		/* line-height: 35px; */
+		font-size: 16px !important;
+		line-height: 1.9;
 		/* margin: 0px !important; */
-  /* } */
+		font-family: "Signika";
+		/* line-height: 0.955; */
+		font-weight: bold; 
+		margin-bottom: 10px;
+  }
   
-      /* #balades h3{ */
-		/* font-size: 18px !important; */
-		/* margin-top: 0px; */
-		/* padding-top: 5px; */
-		/* font-weight: bold; */
-  /* } */
-  
-  /* #balades .avenir{ */
-	/* background-color: #414141!important; */
-	/* color: #fff!important; */
-	/* width: 100%; */
-  	/* font-size: 15px !important; */
-	/* font-weight: normal; */
-	/* padding-bottom: 5px; */
-/* } */
 
 
   
-        /* #balades h3 .orange{ */
-		/* color: #ff6246; */
-  /* } */
-  
-          /* #balades h4{ */
-		/* font-size: 11px !important; */
-		/* font-family: Verdana; */
-		/* text-align: left!important; */
-		/* padding-top: 0px; */
-		/* padding-right: 6px; */
-		/* padding-left: 10px; */
-		/* padding-bottom: 10px; */
-		/* margin-top: 0px!important; */
-		/* margin-bottom: 0px!important; */
+      #projet h3{
+		font-size: 14px ;
+		margin-top: 0px;
+		/* padding-top: 15px; */
+		line-height: 1.3;
+				font-family: "Verdana";
+		
+  }
 
-  /* } */
-  
-            /* #balades h5{ */
-		/* font-size: 10px !important; */
-		/* font-family: Verdana; */
-		/* font-style: italic; */
-		/* text-align: left!important; */
-		/* padding-top: 0px; */
-		/* padding-right: 0px; */
-		/* padding-left: 10px; */
-		/* padding-bottom: 5px; */
-		/* margin-top: 0px!important; */
 
-  /* } */
+        #projet .legende{
+		font-size: 11px ;
+		margin-top: 10px;
+		/* padding-top: 15px; */
+		/* line-height: 1.3; */
+				font-family: "Signika";
+		
+  }
   
-      /* #balades h5 a{ */
-		/* color: #ff6246; */
+  #projet .btnplus {
+  color: #ff6246;
+  font-size: 15px;
+  font-weight: normal;
+  margin-top: 10px;
+  text-decoration: none;
+  /* text-align: left!important; */
+  
+}
 
-  /* } */
+#projet .btnplus:hover {
+  color: #414141;
+}
+
   
-    /* #balades p{ */
-		/* margin:0px; */
-	/* } */
+    /***************section rejoindre********/
+  
+  #rejoindre{
+	 background-color: #ff6246;
+	 max-width: 100%; /*80*/
+	 margin: auto; 
+padding-top: 10px;
+	 min-height: 200px;
+		 background-image: url('img/trame.png');
+		 background-repeat: repeat-x;
+  }
+  
+  #rejoindre .contenu{
+
+	 max-width: 65%; /*80*/
+	 margin: auto;
+	 /*background-color: #ee2246;	*/
+	 min-height: 200px;	 
+		margin-bottom: 50px!important;
+	 margin-top: 20px;
+
+  }
+  
+#rejoindre h2{
+
+  font-size: 22px;
+  font-family: "Signika";
+  color: rgb(255, 255, 255);
+    /* font-weight: bold; */
+  line-height: 1.313;
+  	 margin-top: 10px;
+	 padding-bottom: 15px;
+  }
+  
+#rejoindre h3{
+
+  font-size: 18px;
+  font-family: "Signika";
+  color: rgb(255, 255, 255);
+    /* font-weight: bold; */
+  line-height: 1.313;
+  	 margin-top: 10px;
+	 text-align: left;
+  }
+  
+  #rejoindre h5{
+
+  font-size: 16px;
+  font-family: "Signika";
+  color: rgb(255, 255, 255);
+    /* font-weight: bold; */
+  line-height: 1.313;
+  	 margin-top: 10px;
+	 text-align: justify;
+  }
+  
+    #rejoindre ul{
+		/* list-style-type: circle; */
+		color:#000;
+	}
 	
-      /* #balades	.btnreserver { */
-  /* font-family: Signika!important; */
-  /* color: #ffffff; */
-  /* font-size: 12px; */
-  		/* font-style: normal; */
-  /* background-color: #414141; */
-  /* padding: 8px 16px 8px 16px; */
-  /* margin-top: 10px; */
-  /* text-decoration: none; */
+	  #rejoindre li:before {
+    /* content: "•"; / */
+    padding-right: 8px;
+    color: #000;
+}
   
-/* } */
-/* #balades .btnreserver:hover { */
-  /* background-color: #ff6246; */
-  /* text-decoration: none; */
-/* } */
+  #rejoindre li{
 
-/* #balades .inactif{ */
-  /* background-color: #cacaca; */
-/* } */
+  font-size: 16px;
+  font-family: "Signika";
+  /* color: rgb(255, 255, 255); */
+  line-height: 1.313;
+  	 margin-top: 10px;
+	 text-align: left;
+  }
+  
 
-/* #balades .inactif:hover{ */
-  /* background-color: #bababa; */
-/* } */
+   
+    /***************section soutenir********/
+  
+  #soutenir{
+	 max-width: 100%; /*80*/
+	 margin: auto; 
+	  background-color: #fff;
+	 min-height: 200px;
+	 margin-bottom: 50px;
+  }
+  
+  #soutenir .contenu{
 
-/* .imagenb{ */
-	    /* filter: grayscale(100%); */
-    /* -webkit-filter: grayscale(100%); */
-    /* -moz-filter: grayscale(100%); */
-    /* -ms-filter: grayscale(100%); */
-    /* -o-filter: grayscale(100%); */
-/* } */
+	 max-width: 65%; /*80*/
+	 margin: auto;
+	 /*background-color: #ee2246;	*/
+	 /* min-height: 200px;	  */
+	 margin-top: 20px;
 
-
-
-/* #balades .btnplus { */
-  /* color: #ff6246; */
-  /* font-size: 9px; */
-  /* font-weight: normal; */
-  /* margin-top: 10px; */
-  /* text-decoration: none; */
+  }
+  
 
   
-/* } */
+#soutenir h2{
 
-/* #balades .btnplus:hover { */
-  /* color: #414141; */
-  /* text-decoration: none; */
-/* } */
+  font-size: 22px;
+  font-family: "Signika";
+  color: #ff6246;
+    /* font-weight: bold; */
+  line-height: 1.313;
+  	 margin-top: 10px;
+	 padding-bottom: 15px;
+  }
+  
+/* #soutenir h3{ */
 
-/* #balades .boutonplus{ */
-		  /* line-height: 50px!important; */
-	  /* } */
-	  
-/* #balades .bgblanc{ */
-  /* background-color: #fff; */
-	  /* } */
-	  
-	  
-	  /* .separationcol12mob{ */
-		  /* display: none; */
-	  /* } */
-
-
-
- /* #balades .carte{ */
-	  /* background-color: #fff; */
-	  		/* padding: 0px; */
-	  /* box-shadow: 0 4px 10px 0 rgba(0,0,0,0.2), 0 4px 20px 0 rgba(0,0,0,0.19) */
+  /* font-size: 18px; */
+  /* font-family: "Signika"; */
+  /* color: #000; */
+    /* /* font-weight: bold; */ */
+  /* line-height: 1.313; */
+  	 /* margin-top: 10px; */
+	 /* text-align: left; */
   /* } */
   
-  
-        /* #balades .icone{ */
-		/* margin-top: 15px; */
+  #soutenir h5{
 
-  /* } */
+  font-size: 16px;
+  font-family: "Verdana";
+  color: #000;
+    /* font-weight: bold; */
+  line-height: 1.313;
+  	 margin-top: 10px;
+	 text-align: left;
+  }
+  
+      #soutenir	.btndon {
+  font-family: Signika!important;
+  color: #ffffff;
+  font-size: 14px;
+  		font-weight: bold ;
+		font-style: normal;
+  background-color: #414141;
+  padding: 8px 30px 8px 30px;
+  /* margin-top: 10px; */
+  text-decoration: none;
+  
+}
+
+  #soutenir	.btndon:hover {
+  background-color: #ff6246;
+  text-decoration: none;
+}
+
+  #soutenir .liendon{
+
+  font-size: 10px;
+  font-family: "Verdana";
+  color: #9b9b9b;
+  line-height: 1.313;
+  	 margin-top: 10px;
+  }
+  
+    #soutenir a{
+
+  color: #9b9b9b;
+
+  }
