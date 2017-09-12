@@ -21,7 +21,7 @@
   
   
 .orange{
-		color: #ff6246;
+		color: #ff6246!important;
   }
   
  
@@ -42,16 +42,17 @@
   #navfb {
 	 max-width: 85%; /*85*/
 	 margin: auto;
-	 /* padding-top: 5px; */
+	 padding-top: 15px;
 	 padding-right: 5px;
 	 text-align: right;
+	 /* z-index: 9999; */
 	 /*float: right;*/
 	 
 	 /**NEW**/
-	 /* z-index: 9999; */
-	 /* position: absolute; */
-	 /* top:0px; */
-	 /* right: 0px; */
+	 z-index: 9999;
+	 position: absolute;
+	 top:10px;
+	 right: 8%;
  }
  
  #navfb li{
@@ -64,6 +65,8 @@
  
   #navfb a{
 	color: #ff6246;
+	padding-right: 5px;
+	z-index: 9999;
  }
    #navfb a:hover{
 	color: #ff6246;
@@ -75,7 +78,7 @@
 	 
 	display: flex;
 	 align-items: center;
-	 margin-top: -30px; /****** NEW ******/
+	 margin-top: 15px; /****** NEW ***-30***/
 	 
 	     display: -webkit-flex; 
     -webkit-align-items: center;  /* Safari 7.0+ */
@@ -424,14 +427,24 @@
   
   
  .titre{
-margin-bottom: 20px;
+	 /* margin-top: 20px; */
+/* margin-bottom: 30px; */
+max-width: 100%;
+}
+
+#home .titre{
+		 margin-top: 20px;
+margin-bottom: 30px;
 max-width: 100%;
 }
   
   /**************** NOS BALADES **************/
   
-  
-  
+   /* #balades .titre{ */
+	 /* margin-top: 20px; */
+/* margin-bottom: 30px; */
+/* max-width: 100%; */
+/* } */
   #balades {
 	  background-color: #fff;
 	  	 max-width: 85%; /*80*/
@@ -623,33 +636,37 @@ max-width: 100%;
 		margin-right: 10px;
 
   }
+  /***************PRESENTATION**********/
   
   
-  /***************OFFRE ENTREPRISES**********/
-  
-  #offreentreprises{
-	 background-color: #ff6246;
+     /* #presentation .titre{ */
+	 /* margin-top: 20px; */
+/* margin-bottom: 30px; */
+/* max-width: 100%; */
+/* }  */
+  #presentation{
+	 /* background-color: #ff6246; */
 	 max-width: 100%; /*80*/
 	 margin: auto; 
 
-	 min-height: 200px;
+	 /* min-height: 200px; */
 	 	 /*background-image: url("img/belcier-en-transition.jpg");*/
 		 background-image: url('img/trame.png');
 		 background-repeat: repeat-x;
   }
   
-  #offreentreprises .contenu{
+  #presentation .contenu{
 
-	 max-width: 85%; /*80*/
+	 max-width: 50%; /*80*/
 	 margin: auto;
 	 /*background-color: #ee2246;	*/
 	 min-height: 200px;	 
-		margin-bottom: 50px!important;
+		margin-bottom: 20px;
 	 margin-top: 20px;
 
   }
   
-#offreentreprises h4{
+#presentation h4{
 		font-size: 11px !important;
 		font-family: Verdana;
 		text-align: center!important;
@@ -665,47 +682,20 @@ max-width: 100%;
 
   }
   
-      /* #offreentreprises .titre{ */
-/* margin-bottom: 10px; */
-/* max-width: 100%; */
-/* } */
-  
- #offreentreprises .btnnouscontacter{
-	   font-family: Signika!important; 
-	   font-size: 17px;
-	     color: rgb(255, 98, 70);
-		font-weight: bold;
-		text-transform: uppercase;
-		  padding: 8px 16px 8px 16px;
-		  text-align: center;
-		  background-color: #fff;
-		  /*box-shadow: 0 4px 10px 0 rgba(225, 68, 41,0.2), 0 4px 20px 0 rgba(225, 68, 41,0.19);*/
-  margin-top: 10px!important;
--webkit-box-shadow: 4px 6px 0px 0px rgba(225,68,41,1);
--moz-box-shadow: 4px 6px 0px 0px rgba(225,68,41,1);
-box-shadow: 4px 6px 0px 0px rgba(225,68,41,1);
-
- }
-
-  
-
- #offreentreprises .btnnouscontacter:hover{
-
-	     color: #414141 ;
-		 /* background-color: #ff6246;*/
-text-decoration: none;
--webkit-box-shadow: 2px 4px 0px 0px rgba(0,0,0,1);
--moz-box-shadow: 2px 4px 0px 0px rgba(0,0,0,1);
-box-shadow: 2px 4px 0px 0px rgba(0,0,0,1);
-
- }
-
-  
+ 
+ .videopresentation {
+ box-shadow: 0 4px 10px 0 rgba(0,0,0,0.2), 0 4px 20px 0 rgba(0,0,0,0.19);
+}
 
   
   /******************NOS ECLAIREURS***********/
   
-   
+        /* #noseclaireurs .titre{ */
+	 /* margin-top: 20px; */
+/* margin-bottom: 30px; */
+/* max-width: 100%; */
+/* }  */
+
   #noseclaireurs{
 	 background-color: #fff;
 	 max-width: 85%; /*80*/
@@ -719,7 +709,7 @@ box-shadow: 2px 4px 0px 0px rgba(0,0,0,1);
 	 margin: auto;
 	 /*background-color: #ee2246;	*/
 	 min-height: 200px;	 
-		margin-bottom: 70px!important;
+		margin-bottom: 30px;
 	 margin-top: 20px;
 
   }
@@ -791,6 +781,112 @@ box-shadow: 2px 4px 0px 0px rgba(0,0,0,1);
   float: left;
     margin-top: 10px;
 }
+  
+  /***************OFFRE ENTREPRISES**********/
+  
+  
+ /* #offreentreprises  .titre{ */
+	 /* margin-top: 20px; */
+/* margin-bottom: 10px; */
+/* max-width: 100%; */
+/* } */
+  
+  #offreentreprises{
+	 background-color: #ff6246;
+	 max-width: 100%; /*80*/
+	 margin: auto; 
+
+	 min-height: 200px;
+	 	 /*background-image: url("img/belcier-en-transition.jpg");*/
+		 background-image: url('img/trame.png');
+		 background-repeat: repeat-x;
+  }
+  
+  #offreentreprises .contenu{
+
+	 max-width: 85%; /*80*/
+	 margin: auto;
+	 /*background-color: #ee2246;	*/
+	 min-height: 200px;	 
+		margin-bottom: 50px!important;
+	 margin-top: 20px;
+
+  }
+  
+#offreentreprises h4{
+		font-size: 15px !important;
+		font-family: Signika;
+		text-align: center!important;
+		padding-top: 0px;
+		padding-right: 6px;
+		padding-left: 10px;
+		padding-bottom: 10px;
+		margin-top: 20px!important;
+		margin-bottom: 20px!important;
+		max-width: 50%;
+		margin: auto;
+		color: #fff;
+		line-height: 1.4;
+		/* font-weight: bold; */
+
+  }
+  /* .L_Alternative_Urbaine_vous_propose_de_construir { */
+  /* font-size: 20px; */
+  /* font-family: "Signika"; */
+  /* color: rgb(255, 255, 255); */
+  
+  
+  /* text-align: center; */
+  /* -moz-transform: matrix( 0.99982596706935,0,0,0.99543240763898,0,0); */
+  /* -webkit-transform: matrix( 0.99982596706935,0,0,0.99543240763898,0,0); */
+  /* -ms-transform: matrix( 0.99982596706935,0,0,0.99543240763898,0,0); */
+  /* position: absolute; */
+  /* left: 490.767px; */
+  /* top: 2990.123px; */
+  /* width: 566.989px; */
+  /* height: 75.253px; */
+  /* z-index: 55; */
+/* } */
+
+  
+      /* #offreentreprises .titre{ */
+/* margin-bottom: 10px; */
+/* max-width: 100%; */
+/* } */
+  
+ #offreentreprises .btnensavoirplus{
+	   font-family: Signika!important; 
+	   font-size: 17px;
+	     color: rgb(255, 98, 70);
+		font-weight: bold;
+		text-transform: uppercase;
+		  padding: 8px 16px 8px 16px;
+		  text-align: center;
+		  background-color: #fff;
+		  /*box-shadow: 0 4px 10px 0 rgba(225, 68, 41,0.2), 0 4px 20px 0 rgba(225, 68, 41,0.19);*/
+  margin-top: 10px!important;
+-webkit-box-shadow: 4px 6px 0px 0px rgba(225,68,41,1);
+-moz-box-shadow: 4px 6px 0px 0px rgba(225,68,41,1);
+box-shadow: 4px 6px 0px 0px rgba(225,68,41,1);
+padding-left: 35px;
+padding-right: 35px;
+ }
+
+  
+
+ #offreentreprises .btnensavoirplus:hover{
+
+	     color: #414141 ;
+		 /* background-color: #ff6246;*/
+text-decoration: none;
+-webkit-box-shadow: 2px 4px 0px 0px rgba(0,0,0,1);
+-moz-box-shadow: 2px 4px 0px 0px rgba(0,0,0,1);
+box-shadow: 2px 4px 0px 0px rgba(0,0,0,1);
+
+ }
+
+  
+
 
  /**************FOOTER******************/
  
@@ -823,12 +919,51 @@ font-size: 10px;
 	text-align: left!important;
   }
   
+      footer a{
+padding-right: 4px;
+margin-bottom: 5px;
+	color: #ff6246;
+
+  }
+  
+        footer a:hover{
+	color: #fff;
+	text-decoration: none;
+
+  }
+  
+  .social{
+	  width:100%;
+	  height: 100%;
+  }
+  
+     .social:hover{
+	color: #ff6246;
+	text-decoration: none;
+
+  }
+  
+  footer .fa{
+	  /* font-size: 22px; */
+	  /* color: #fff; */
+  }
+  footer .fa-instagram, .fa-facebook{
+	  /* font-size: 1em; */
+	  color: #434343;
+  }
+  
+    footer .fa-circle{
+	  /* font-size: 1.5em; */
+	  color: #fff;
+  }
+  
+      footer .fa-circle:hover{
+	  /* font-size: 1.5em; */
+	  color: #ff6246;
+  }
+  
 
   
-    footer .contactfooter{
-float: initial!important;
- }
-  }
 
  footer btncontact{
 	 margin-bottom: 10px;
@@ -870,9 +1005,9 @@ margin-bottom: 20px;
 		font-family: Verdana;
 		color: #898989;
 		font-size: 11px;
-		padding-top: 25px;
+		/* padding-top: 25px; */
 		padding-bottom: 20px!important;
-			 margin-top: 20px;
+			 /* margin-top: 20px; */
 			 
 
   }
@@ -967,6 +1102,7 @@ margin-bottom: 20px;
 	
 	#headerimg img{
 		width:100%;
+		/* height: 329px; */
 	}
   
   #bread{
@@ -1105,6 +1241,106 @@ margin-bottom: 35px;
 	  /* margin-top: 10px; */
   }
   
+  
+  
+ /*************offre*************/ 
+ 
+  #offre{
+	 max-width: 100%; /*80*/
+	 margin: auto; 
+	  background-color: #fff;
+	 min-height: 200px;
+	 margin-bottom: 50px;
+	 /* padding-top: 20px */
+  }
+  
+  #offre .contenu70{
+
+	 max-width: 50%; /*80*/
+	 margin: auto;
+	 /*background-color: #ee2246;	*/
+	 /* min-height: 200px;	  */
+	 margin-top: 20px;
+
+  }
+    #offre .contenu100{
+
+	 max-width: 95%; /*80*/
+	 margin: auto;
+	 /*background-color: #ee2246;	*/
+	 /* min-height: 200px;	  */
+	 margin-top: 20px;
+
+  }
+  
+  #offre .titre{
+	 margin-top: 0px;
+	 margin-bottom: 0px;
+  }
+  
+  
+  #offre .max100{
+	  max-width: 100%;
+  }
+  
+#offre h2{
+
+  font-size: 16px;
+  font-family: "Signika";
+  color: #000;
+    /* font-weight: bold; */
+  line-height: 1.313;
+  	 /* margin-top: 10px; */
+	 /* padding-bottom: 15px; */
+  }
+  
+      #offre h3{
+		font-size: 14px ;
+		margin-top: 0px;
+		line-height: 1.3;
+		font-family: "Verdana";
+  }
+ 
+ 
+ #offre .tel{
+	 margin-top: 15px;
+ }
+  
+
+  
+      #offre	.btncontacter {
+  font-family: Signika!important;
+  color: #ffffff;
+  font-size: 14px;
+  		font-weight: bold ;
+		font-style: normal;
+  background-color: #414141;
+  padding: 8px 30px 8px 30px;
+  text-decoration: none;
+  
+  
+}
+
+  #offre	.btncontacter:hover {
+  background-color: #ff6246;
+  text-decoration: none;
+}
+
+  #offre .liendon{
+
+  font-size: 10px;
+  font-family: "Verdana";
+  color: #9b9b9b;
+  line-height: 1.313;
+  	 margin-top: 10px;
+  }
+  
+    #offre a{
+
+  color: #9b9b9b;
+
+  }
+ 
   
   
   /***********page qui**************/
@@ -1846,6 +2082,33 @@ padding: 8px;
 	text-align: center!important;
   }
 	   }
+	   
+	   
+	     /**********MOBILE 990**************/
+	  @media only screen and (max-width: 991px) {   
+	   
+	       footer .contactfooter{
+float: initial!important;
+ }
+ 
+ .social img{
+	 margin-top: 10px;
+ }
+ 
+   #offre .contenu70{
+
+	 max-width: 90%; /*80*/
+
+
+  }
+  		    .carousel-inner .item {
+  	  /* max-height: 370px !important; */
+	  height: 100%;
+	  /* min-height: 370px !important; */
+	}
+ 
+	  }
+	   
   
   /**********MOBILE 767**************/
   
@@ -1853,6 +2116,12 @@ padding: 8px;
 	  
    
   @media only screen and (max-width: 767px) {
+	  
+	  
+	  
+	     #offre .illustration{	display:none;}
+	  
+	  
 	  
 	  #navfb1024{display:none;}
 	  
@@ -1934,6 +2203,8 @@ padding: 8px;
 	  /* z-index: 99; */
   }
 	
+
+	
   }
   
   
@@ -1972,7 +2243,11 @@ top: 25%;
 	}
 	
   
+    @media only screen and (max-width: 480px) {
 
+
+  .navbar-toggle{margin-right: 0px;}
   
+	}
   
 
